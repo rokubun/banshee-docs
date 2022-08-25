@@ -1,5 +1,5 @@
-site_name: "Rokubun's MkDocs template documentation"
-site_url: "https://example.rokubun.cat"
+site_name: "BANSHEE Documentation"
+site_url: "https://docs.banshee.rokubun.cat"
 theme:
   name: material
   language: en
@@ -7,7 +7,7 @@ theme:
     text: Roboto
     code: Roboto Mononame
     search_index_only: true
-repo_url: 'http://192.168.1.54:9080/templates/mkdocs.git'
+repo_url: 'https://github.com/rokubun/banshee-docs'
 nav:
   - 'Overview': index.md
   - 'Get started': 'sections/get_started.md'
