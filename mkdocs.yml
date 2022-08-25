@@ -9,7 +9,6 @@ theme:
     search_index_only: true
   logo: images/banshee.svg
   favicon: images/favicon.ico
-
   features:
     - navigation.tracking
     - navigation.expand
@@ -21,14 +20,14 @@ nav:
   - 'Get Your Location':  'sections/get_location.md'
   - 'FAQ': 'faq.md'
   # - 'API Reference': 'faq.md'
-extra:
-  consent:
-    title: Cookie consent
-    description: >- 
-      We use cookies to recognize your repeated visits and preferences, as well
-      as to measure the effectiveness of our documentation and whether users
-      find what they're searching for. With your consent, you're helping us to
-      make our documentation better.
+# extra:
+#   consent:
+#     title: Cookie consent
+#     description: >- 
+#       We use cookies to recognize your repeated visits and preferences, as well
+#       as to measure the effectiveness of our documentation and whether users
+#       find what they're searching for. With your consent, you're helping us to
+#       make our documentation better.
 extra_css:
   - 'stylesheets/extra.css'
 
