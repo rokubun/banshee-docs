@@ -9,12 +9,11 @@ theme:
     search_index_only: true
 repo_url: 'http://192.168.1.54:9080/templates/mkdocs.git'
 nav:
-  - 'Introduction': index.md
-  - 'Section 1': 'sections/section.md'
-  - 'Section_2': 
-    - 'Figures': 'sections/figures.md'
-    - 'Tables': 'sections/tables.md'
-  - 'FAQs': 'faq.md'
+  - 'Overview': index.md
+  - 'Get started': 'sections/get_started.md'
+  - 'Get Your Location':  'sections/get_location.md'
+  - 'FAQ': 'faq.md'
+  # - 'API Reference': 'faq.md'
 
 extra_css:
   - 'stylesheets/extra.css'
@@ -24,7 +23,11 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.emoji:
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
-  - codehilite
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
 
 
 plugins:
