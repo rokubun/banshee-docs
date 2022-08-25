@@ -1,0 +1,13 @@
+version: "3.4"
+
+services: 
+  documentation:
+    build:
+      context: .
+      target: devel
+    image: rokubun/mkdocs-material
+    volumes:
+      - $PWD:/docs
+    ports:
+      - 8000:8000
+
