@@ -1,14 +1,8 @@
-@page {
-    size: a4 portrait;
-    counter-increment: page;
-    font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
-    white-space: pre;
-    color: grey;
-    font-size: 12px;
-    @top-right {
-        content: 'Header (short running title, ...)';
-    }
-    @bottom-center {
-        content: 'Footer (contract number, date, ...)';
-    }
+
+:root > * {
+    --md-primary-fg-color:        rgb(15, 78, 118);
+}
+
+.md-header__button.md-logo {
+    margin-top: -0.2rem;
 }
